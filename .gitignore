@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files - keep actual data local
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+*.npy
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.joblib
+# Model outputs
+models/
+*.h5
+*.pt
+*.pth
+*.keras
+*.onnx
+
+# Reports / generated outputs
+reports/figures/
+outputs/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
